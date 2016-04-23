@@ -1,0 +1,61 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <title>QuadTree - Grasshopper Component Reference</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="title" content="QuadTree - Grasshopper Component Reference" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<div id="topheader"></div>
+
+<div id="page">
+
+<div id="content">
+
+<div id="header">
+<h1><img src="../../icons/Triangulation/QuadTree.png"/> QuadTree</h1>
+<p><a href="../../index.html">Component Index</a> &gt; Mesh > Triangulation > <b>QT</b></p>
+</div>
+
+<h3>A two-dimensional quadtree structure</h3>
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Points</b></td><td>P</td><td>Input points</td><td>List of Point</td></tr>
+<tr><td><b>Plane</b></td><td>Pl</td><td>Optional base plane. If omitted, the best fit plane is used</td><td>Plane</td></tr>
+<tr><td><b>Square</b></td><td>S</td><td>Square leafs</td><td>Boolean</td></tr>
+<tr><td><b>Group</b></td><td>G</td><td>Permitted content per leaf</td><td>Integer</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Quads</b></td><td>Q</td><td>Quad tree leaves</td><td>Tree of Curve</td></tr>
+<tr><td><b>Points</b></td><td>P</td><td>Points per quad</td><td>Tree of Point</td></tr>
+</tbody>
+</table>
+
+
+<p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>

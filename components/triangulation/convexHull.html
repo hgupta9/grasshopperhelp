@@ -1,0 +1,60 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Convex Hull - Grasshopper Component Reference</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="title" content="Convex Hull - Grasshopper Component Reference" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<div id="topheader"></div>
+
+<div id="page">
+
+<div id="content">
+
+<div id="header">
+<h1><img src="../../icons/Triangulation/ConvexHull.png"/> Convex Hull</h1>
+<p><a href="../../index.html">Component Index</a> &gt; Mesh > Triangulation > <b>Hull</b></p>
+</div>
+
+<h3>Compute the planar, convex hull for a collection of points</h3>
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Points</b></td><td>P</td><td>Points for convex hull solution</td><td>List of Point</td></tr>
+<tr><td><b>Plane</b></td><td>Pl</td><td>Optional base plane. If no plane is provided, then the best-fit plane will be used.</td><td>Plane</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Hull</b></td><td>H</td><td>Convex hull in base plane space</td><td>Curve</td></tr>
+<tr><td><b>Hull(z)</b></td><td>Hz</td><td>Convex hull in world space</td><td>Curve</td></tr>
+<tr><td><b>Indices</b></td><td>I</td><td>Indices of points on convex hull</td><td>List of Integer</td></tr>
+</tbody>
+</table>
+
+
+<p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>

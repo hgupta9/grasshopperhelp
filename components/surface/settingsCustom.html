@@ -1,0 +1,66 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Settings (Custom) - Grasshopper Component Reference</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="title" content="Settings (Custom) - Grasshopper Component Reference" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<div id="topheader"></div>
+
+<div id="page">
+
+<div id="content">
+
+<div id="header">
+<h1><img src="../../icons/Surface/MeshSettingsCustom.png"/> Settings (Custom)</h1>
+<p><a href="../../index.html">Component Index</a> &gt; Mesh > Util > <b>Custom Mesh Settings</b></p>
+</div>
+
+<h3>Represents custom mesh settings.</h3>
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Stitch Seams</b></td><td>Stitch</td><td>Edges of adjacent faces are matched up if True.</td><td>Boolean</td></tr>
+<tr><td><b>Simple Planes</b></td><td>Planes</td><td>Planar faces are meshed with a minimum amount of triangles.</td><td>Boolean</td></tr>
+<tr><td><b>Refine</b></td><td>Refine</td><td>Refine the initial grid if it exceeds tolerance accuracy.</td><td>Boolean</td></tr>
+<tr><td><b>Min Count</b></td><td>Min</td><td>Minimum number of quads in the initial grid per face.</td><td>Integer</td></tr>
+<tr><td><b>Max Count</b></td><td>Max</td><td>Maximum number of quads in the initial grid per face.</td><td>Integer</td></tr>
+<tr><td><b>Aspect Ratio</b></td><td>Aspect</td><td>Maximum aspect ratio of quads in the initial grid.</td><td>Number</td></tr>
+<tr><td><b>Max Distance</b></td><td>Max Dist</td><td>Maximum allowed distance between center of edges and underlying surface.</td><td>Number</td></tr>
+<tr><td><b>Max Angle</b></td><td>Max Angle</td><td>Maximum allowed angle (in degrees) between the normals of two adjacent quads.</td><td>Number</td></tr>
+<tr><td><b>Min Edge</b></td><td>Min Edge</td><td>Minimum allowed edge length.</td><td>Number</td></tr>
+<tr><td><b>Max Edge</b></td><td>Max Edge</td><td>Maximum allowed edge length.</td><td>Number</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Settings</b></td><td>S</td><td>Smooth mesh settings</td><td></td></tr>
+</tbody>
+</table>
+
+
+<p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>
