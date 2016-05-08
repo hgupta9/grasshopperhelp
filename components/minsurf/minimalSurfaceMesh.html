@@ -1,0 +1,64 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Minimal Surface Mesh - Grasshopper Component Reference</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="title" content="Minimal Surface Mesh - Grasshopper Component Reference" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<div class="topheader"></div>
+
+<div class="page">
+
+<div class="content">
+
+<div class="header">
+<h1><img src="../../icons/MinSurf/MinSrf_msh_4c.png"/> Minimal Surface Mesh</h1>
+<p><a href="../../index.html">Component Index</a> &gt; MinSurf > MinSurf > <b>MinSrf 4C Mesh</b></p>
+</div>
+
+<h3>Construct a minimal surface based on 4 boundry curves</h3>
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>U0 Curve</b></td><td>U0</td><td>The First U Curve</td><td>List of Curve</td></tr>
+<tr><td><b>U1 Curve</b></td><td>U1</td><td>The Second U Curve</td><td>List of Curve</td></tr>
+<tr><td><b>V0 Curve</b></td><td>V0</td><td>The first V Curve</td><td>List of Curve</td></tr>
+<tr><td><b>V1 Curve</b></td><td>V1</td><td>The Second V Curve</td><td>List of Curve</td></tr>
+<tr><td><b>U Count</b></td><td>U</td><td>Sample Density for U points. The higher the value the the more precise</td><td>Integer</td></tr>
+<tr><td><b>V Count</b></td><td>V</td><td>Sample Density for V points. The higher the value the the more precise</td><td>Integer</td></tr>
+<tr><td><b>Itteration</b></td><td>I</td><td>The solver itteration will refine the solution. leave blank or set to 0 to auto compute</td><td>Integer</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>UV point Grid</b></td><td>P</td><td>The UV points that define the surface</td><td>Tree of Point</td></tr>
+<tr><td><b>Resulting Mesh</b></td><td>M</td><td>The Minimal Surface as mesh</td><td>Mesh</td></tr>
+</tbody>
+</table>
+
+
+<p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <title>ZombieSolver - Grasshopper Component Reference</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="title" content="ZombieSolver - Grasshopper Component Reference" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<div class="topheader"></div>
+
+<div class="page">
+
+<div class="content">
+
+<div class="header">
+<h1><img src="../../icons/Kangaroo2/zombie.png"/> ZombieSolver</h1>
+<p><a href="../../index.html">Component Index</a> &gt; Kangaroo2 > Main > <b>ZombieSolver</b></p>
+</div>
+
+<h3>A version of the solver component which keeps all iterations internal, and outputs the final result</h3>
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>GoalObjects</b></td><td>GoalObjects</td><td>GoalObjects</td><td>Tree of Generic</td></tr>
+<tr><td><b>Threshold</b></td><td>Threshold</td><td>Stop when average movement is less than this (default is 1e-10)</td><td>Number</td></tr>
+<tr><td><b>Tolerance</b></td><td>Tolerance</td><td>Points closer than this distance will be combined into a single particle</td><td>Number</td></tr>
+<tr><td><b>MaxIterations</b></td><td>MaxIterations</td><td>If the energy threshold has not been reached, it will stop after this many iterations</td><td>Integer</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>I</b></td><td>I</td><td>Iterations</td><td>Integer</td></tr>
+<tr><td><b>V</b></td><td>V</td><td>V</td><td>List of Point</td></tr>
+<tr><td><b>O</b></td><td>O</td><td>GoalFunction Outputs</td><td>List of Generic</td></tr>
+</tbody>
+</table>
+
+
+<p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>

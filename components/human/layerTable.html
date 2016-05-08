@@ -1,0 +1,65 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Layer Table - Grasshopper Component Reference</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="title" content="Layer Table - Grasshopper Component Reference" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<div class="topheader"></div>
+
+<div class="page">
+
+<div class="content">
+
+<div class="header">
+<h1><img src="../../icons/Human/layerTable.png"/> Layer Table</h1>
+<p><a href="../../index.html">Component Index</a> &gt; Human > Document Info > <b>LayerTable</b></p>
+</div>
+
+<h3>Gets the list of layers in the active document</h3>
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Update</b></td><td>U</td><td>Set this value to true to update the layer table</td><td>Tree, true of Boolean</td></tr>
+<tr><td><b>Auto-Update</b></td><td>AU</td><td>If this value is set to true, the component will listen for changes to the layer table, and automatically update each time something changes. Use with caution - you can create an infinite loop if you create layers downstream based on outputs from this component.</td><td>Boolean</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Layers</b></td><td>L</td><td>The list of layer names in the active document</td><td>List of Text</td></tr>
+<tr><td><b>Full Layer Paths</b></td><td>LF</td><td>The list of layer names in the document, including nesting information</td><td>List of Text</td></tr>
+<tr><td><b>Layer Colors</b></td><td>C</td><td>The colors of the document Layers</td><td>List of Colour</td></tr>
+<tr><td><b>Linetypes</b></td><td>LT</td><td>The list of linetypes associated with the document layers</td><td>List of Text</td></tr>
+<tr><td><b>Material Names</b></td><td>M</td><td>The list of material names associated with the document layers</td><td>List of Text</td></tr>
+<tr><td><b>Visible</b></td><td>V</td><td>True if layer is visible.</td><td>List of Boolean</td></tr>
+<tr><td><b>Print Width</b></td><td>PW</td><td>The print widths associated with the document layers</td><td>List of Number</td></tr>
+<tr><td><b>Print Color</b></td><td>PC</td><td>The print color for the layer</td><td>List of Colour</td></tr>
+</tbody>
+</table>
+
+
+<p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>
