@@ -25,6 +25,27 @@
 </div>
 
 <h3>Settings to control the orbit parameters</h3>
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>SnapT</b></td><td></td><td>Tolerance range to test for snapping to the start point, used to detect and close orbits. 0 to disable check</td><td>Number</td></tr>
+<tr><td><b>SnapA</b></td><td></td><td>If snapping tolerance is set, this sets the minimum difference in angles before a snap occurs. 0 to disable check. Max is 1.</td><td>Number</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>S</b></td><td></td><td>Settings output to wire to a SPM vector field integration component</td><td>Generic Data</td></tr>
+</tbody>
+</table>
+
 
 <p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
 

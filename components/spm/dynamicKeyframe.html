@@ -25,6 +25,28 @@
 </div>
 
 <h3>Keyframes a list of dynamics to only trigger at specified step ranges</h3>
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>St</b></td><td></td><td>Step count to begin processing the dynamics linked to this component</td><td>Integer</td></tr>
+<tr><td><b>Sp</b></td><td></td><td>Step count to cease processing dynamics (must be larger than Start Step)</td><td>Integer</td></tr>
+<tr><td><b>D</b></td><td></td><td>List of dynamics to only process between the Start and Stop step range</td><td>Generic Data</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>D</b></td><td></td><td>Parameters used to modify the vector field of the Vector Field Creater that this must be wired into</td><td>Generic Data</td></tr>
+</tbody>
+</table>
+
 
 <p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
 

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Offset Mesh - Grasshopper Component Reference</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="title" content="Offset Mesh - Grasshopper Component Reference" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<div class="topheader"></div>
+
+<div class="page">
+
+<div class="content">
+
+<div class="header">
+<h1><img src="../../icons/Weaverbird/Offset_Mesh.png"/> Offset Mesh</h1>
+<p><a href="../../index.html">Component Index</a> &gt; Weaverbird > Wb Transform > <b>Offset Mesh</b></p>
+</div>
+
+
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Mesh/Curves</b></td><td>M</td><td>The open or closed mesh, or closed curves list, to modify</td><td>Geometry</td></tr>
+<tr><td><b>Distance</b></td><td>D</td><td>The list of distanced to use in the construction of the new internal vertices. One distance/vertex</td><td>Number</td></tr>
+<tr><td><b>OffsetType</b></td><td>T</td><td>Definition of distance for new vertices<br />
+<br />
+0: Distance On Diagonals. The measurement on the diagonal decides the offset.<br />
+1: Hypotenuse Average. Trigonometrical. This setting is experimental..<br />
+2: Planes Intersections. Planes intersections, works best with valence-three vertices. This setting is experimental..</td><td>OffsetTypeEnum</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Output Mesh/Curves</b></td><td>O</td><td>The mesh after the offset</td><td>Geometry</td></tr>
+</tbody>
+</table>
+
+
+<p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>

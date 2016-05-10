@@ -25,6 +25,28 @@
 </div>
 
 <h3>Settings to work with tensor fields during integration</h3>
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Tensor</b></td><td></td><td>Set to true if your input is actually a tensor field (list of planes)</td><td>Boolean</td></tr>
+<tr><td><b>TensDir</b></td><td></td><td>Which direction to integrate across if we're using a tensor field (0 = X, 1 = Y, 2 = Z)</td><td>Integer</td></tr>
+<tr><td><b>TensAxs</b></td><td></td><td>Which Axes are used in the line continuity check, if enabled (0 = X, 1 = Y, 2 = Z)</td><td>Integer</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>S</b></td><td></td><td>Settings output to wire to a SPM vector field integration component</td><td>Generic Data</td></tr>
+</tbody>
+</table>
+
 
 <p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
 

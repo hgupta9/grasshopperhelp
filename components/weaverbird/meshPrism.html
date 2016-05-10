@@ -1,0 +1,72 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Mesh Prism - Grasshopper Component Reference</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="title" content="Mesh Prism - Grasshopper Component Reference" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<div class="topheader"></div>
+
+<div class="page">
+
+<div class="content">
+
+<div class="header">
+<h1><img src="../../icons/Weaverbird/Mesh_Prism.png"/> Mesh Prism</h1>
+<p><a href="../../index.html">Component Index</a> &gt; Weaverbird > Wb Define > <b>Mesh Prism</b></p>
+</div>
+
+
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Plane</b></td><td>P</td><td>A plane used to form the base of the solid</td><td>Plane</td></tr>
+<tr><td><b>Width</b></td><td>W</td><td>The base circle width</td><td>Number</td></tr>
+<tr><td><b>NumberOfSides</b></td><td>S</td><td>The number of sides of the base polygon</td><td>Integer</td></tr>
+<tr><td><b>TopPoint</b></td><td>T</td><td>The point defining the top of the solid</td><td>Point</td></tr>
+<tr><td><b>BasePolygonMethod</b></td><td>C</td><td>True: the width refers to the radius of the circumscribed circle<br />
+False: the width refers to the inscribed circle</td><td>Boolean</td></tr>
+<tr><td><b>FillStrategy</b></td><td>F</td><td>The filling strategy<br />
+<br />
+0: Skip. No insertions at the targeted faces.<br />
+1: Best. Use the best combination available today.<br />
+2: Triangle Fan. A fan of triangles, with an addition center point.<br />
+3: Triangle Hand. A series of triangles, all pointing towards vertex zero.<br />
+4: Triangle Knit. Triangles start from vertex 0 and follow in rectangular way.<br />
+5: Triangle Zigzag. Triangles start from vertex 0 and alternate.<br />
+6: Quad Stitch. Lays quads except in last segment if it is odd.<br />
+7: Quad Fan. Adds a central point and positions quads every two edges.</td><td>TessellationEnum</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>OutMesh</b></td><td>O</td><td>The resulting mesh ()</td><td>Mesh</td></tr>
+</tbody>
+</table>
+
+
+<p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>

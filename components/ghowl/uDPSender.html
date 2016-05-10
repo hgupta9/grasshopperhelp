@@ -1,0 +1,63 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <title>UDP Sender - Grasshopper Component Reference</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="title" content="UDP Sender - Grasshopper Component Reference" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<div class="topheader"></div>
+
+<div class="page">
+
+<div class="content">
+
+<div class="header">
+<h1><img src="../../icons/gHowl/UDP_Sender.png"/> UDP Sender</h1>
+<p><a href="../../index.html">Component Index</a> &gt; gHowl > gHowl UDP > <b>UDP Sender</b></p>
+</div>
+
+<h3>Allows to send data through the network to any computer</h3>
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>@</b></td><td></td><td>The IP address to send to. If empty, the loopback address is used</td><td>Text</td></tr>
+<tr><td><b>P</b></td><td></td><td>The port number to sent to, on the IP above</td><td>Integer</td></tr>
+<tr><td><b>#</b></td><td></td><td>The pattern:
+  0 = sends data as ASCII text (7),
+ 10 = sends data as array of doubles (8)
+999 = Sends OSC Message</td><td>Integer</td></tr>
+<tr><td><b>D</b></td><td></td><td>The string to send</td><td>Generic Data</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>I</b></td><td></td><td>Network information</td><td>Text</td></tr>
+</tbody>
+</table>
+
+
+<p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>

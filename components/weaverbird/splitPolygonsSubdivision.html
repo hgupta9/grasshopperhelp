@@ -1,0 +1,63 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Split Polygons Subdivision - Grasshopper Component Reference</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="title" content="Split Polygons Subdivision - Grasshopper Component Reference" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <link href="../../style.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+</head>
+
+<div class="topheader"></div>
+
+<div class="page">
+
+<div class="content">
+
+<div class="header">
+<h1><img src="../../icons/Weaverbird/Split_Polygons_Subdivision.png"/> Split Polygons Subdivision</h1>
+<p><a href="../../index.html">Component Index</a> &gt; Weaverbird > Wb SubD > <b>Split Polygons Subdivision</b></p>
+</div>
+
+
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Mesh/Curves</b></td><td>M</td><td>The open or closed mesh, or closed curves list, to subdivide</td><td>Geometry</td></tr>
+<tr><td><b>Level</b></td><td>L</td><td>The number of subdividing iterations for each face</td><td>Integer</td></tr>
+<tr><td><b>Smooth Naked Edges</b></td><td>S</td><td>Defines how to treat the naked edges<br />
+<br />
+0: Fixed. Naked edges will not move or be modified.<br />
+1: Smooth. The naked edge will tend toward a spline.<br />
+2: Corner Fixed. Corners (2-sided vertices) will be fixed, while other naked vertices will tend toward a spline.<br /></td><td>NakedEdgeEnum</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Output Mesh/Curves</b></td><td>O</td><td>The mesh after the subdividing process</td><td>Geometry</td></tr>
+</tbody>
+</table>
+
+
+<p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>

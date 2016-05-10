@@ -25,6 +25,32 @@
 </div>
 
 <h3>Settings to configure a SPM vector field integration component</h3>
+<h2>Inputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>Tol</b></td><td></td><td>Distance from field where integration will be in effect. 0 will ignore the field entirely</td><td>Number</td></tr>
+<tr><td><b>IntrpR</b></td><td></td><td>Radius to use in vector interpolation method. 0 to use closest vector only</td><td>Number</td></tr>
+<tr><td><b>StopA</b></td><td></td><td>The winding angle is used to stop the integration if it winds around the set angle (radians). Used to stop the integration at singularities or orbits</td><td>Number</td></tr>
+<tr><td><b>LCont</b></td><td></td><td>Force lines to follow a straighter path if one is available</td><td>Boolean</td></tr>
+<tr><td><b>Fast</b></td><td></td><td>Use a faster and less accurate integration method (Velocity-Verlet) instead of the default (Runge-Kutta)</td><td>Boolean</td></tr>
+<tr><td><b>Drag</b></td><td></td><td>Drag factor of the integration</td><td>Number</td></tr>
+<tr><td><b>Accel</b></td><td></td><td>Integration will contain a componenet of acceleration (the vectors will represent forces)</td><td>Boolean</td></tr>
+</tbody>
+</table>
+
+<h2>Outputs</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>ID</th><th>Description</th><th>Type</th></tr>
+</thead>
+<tbody>
+<tr><td><b>S</b></td><td></td><td>Settings output to wire to a SPM vector field integration component</td><td>Generic Data</td></tr>
+</tbody>
+</table>
+
 
 <p id="copy">Copyright © 2016 Robert McNeel &amp; Associates.</p>
 
